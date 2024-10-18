@@ -1,17 +1,16 @@
 # DiffNFTGen
 
 DiffNFTGen is a generative model designed to create high-quality Non-Fungible Token (NFT) images, with a primary focus on enhancing rarity and style transfer. Built on top of Stable Diffusion, DiffNFTGen integrates Reinforcement Learning (RL) techniques and a custom RarityReward metric to generate rare NFTs. The model employs Proximal Policy Optimization (PPO) and incorporates Kullback-Leibler (KL) divergence regularization to ensure both visual fidelity and the uniqueness of the generated NFTs.
-### Generated Images"
 
+### Generated Images:
 **Prompt**: *Kratos, God of War*
-#### Stable Diffusion SFT (Supervised Fine-tuned)
-![Iteration 100](images/generated_images/sft.png)
-
-#### DiffNFTGen RR=0.5
-![Iteration 500](images/generated_images/rr0.5.png)
-
-#### DiffNFTGen RR=0.8
-![Iteration 1000](images/generated_images/rr0.8.png)
+<table>
+  <tr>
+    <td><strong>SFT (Supervised Fine-tuned)</strong><br>Prompt: Kratos, God of War<br><img src="images/generated_images/sft.png" width="250"></td>
+    <td><strong>RR=0.5</strong><br>Prompt: Kratos, God of War<br><img src="images/generated_images/rr0.5.png" width="250"></td>
+    <td><strong>RR=0.8</strong><br>Prompt: Kratos, God of War<br><img src="images/generated_images/rr0.8.png" width="250"></td>
+  </tr>
+</table>
 
 ## Table of Contents
 
