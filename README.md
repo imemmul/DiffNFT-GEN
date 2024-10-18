@@ -7,8 +7,8 @@ DiffNFTGen is a generative model designed to create high-quality Non-Fungible To
 <table>
   <tr>
     <td><strong>SFT (Supervised Fine-tuned)</strong><img src="images/generated_images/sft.png" width="250"></td>
-    <td><strong>RR=0.5</strong><img src="images/generated_images/rr0.5.png" width="250"></td>
-    <td><strong>RR=0.8</strong><img src="images/generated_images/rr0.8.png" width="250"></td>
+    <td><strong>DiffNFTGen, RR=0.5</strong><img src="images/generated_images/rr0.5.png" width="250"></td>
+    <td><strong>DiffNFTGen, RR=0.8</strong><img src="images/generated_images/rr0.8.png" width="250"></td>
   </tr>
 </table>
 
