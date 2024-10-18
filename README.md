@@ -68,3 +68,5 @@ We provide the pre-trained weights for the DiffNFTGen model.
 ```bash
 python ./inference/inference.py --prompt "{prompt}" --num_images 5 --diffnftgen_weight {/path/to/diffnftgen_weight}  --sft_weight {/path/to/sft_weight} --rarity_weight {/path/to/classifier}
 ```
+**TODO**
+- fix environment.yaml with correct packages
