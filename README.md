@@ -54,10 +54,6 @@ DiffNFTGen is a generative model designed to create high-quality Non-Fungible To
     ```bash
     !accelerate launch ./train/train.py --use_ema True --prompt_path {/path/to/prompts.json} --p_batch_size 4 --reward_weight 1000 --kl_weight 0.1 --enable_rarity --ir_weight 0.2 --rarity_weight 0.8 --rarity_model_path {/path/to/vit_rarity_classifier.pth} --learning_rate 5e-5 --single_flag 0 --gradient_accumulation_steps 12 --clip_norm 0.1 --g_batch_size 6 --multi_gpu 0 --v_flag 1 --sft_path {/path/to/sft_stable_diffusion} --output_dir {/path/to/output/} --checkpointing_steps 1000 --save_interval 1000 --max_train_steps 50000
     ```
-5. **Inference**:
-    ```bash
-    python ./inference/inference.py  
-    ```
 ### Pre-trained Model Weights
 
 We provide the pre-trained weights for the DiffNFTGen model.
@@ -67,14 +63,8 @@ We provide the pre-trained weights for the DiffNFTGen model.
 - **DiffNFTGen RR-0.8 (Rarity Reward=0.8)**: [Download here](https://your-link-here.com/diffnftgen_weights.pth)
 - **DiffNFTGen RR-0.5 (Rarity Reward=0.5)**: [Download here](https://your-link-here.com/diffnftgen_weights.pth)
 - **Stable Diffusion Fine-tune (SD-SFT) Weights**: [Download here](https://your-link-here.com/sd_sft_weights.pth)
+- **Rarity Reward Weight**: [Download here](https://your-link-here.com/sd_sft_weights.pth)
 
 ```bash
-python generate.py --prompts "Your textual prompt here" --num_images 5 --weights ./weights/diffnftgen_weights.pth
-
-
-## Usage
-
-To generate NFT images, use the provided script `generate.py`:
-
-```bash
-python generate.py --prompts "Your textual prompt here" --num_images 5 --weights ./weights/
+python ./inference/inference.py --prompt "{prompt}" --num_images 5 --diffnftgen_weight {/path/to/diffnftgen_weight}  --sft_weight {/path/to/sft_weight} --rarity_weight {/path/to/classifier}
+```
