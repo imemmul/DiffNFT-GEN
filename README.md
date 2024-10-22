@@ -70,3 +70,4 @@ python ./inference/inference.py --prompt "{prompt}" --num_images 5 --diffnftgen_
 ```
 **TODO**
 - Releasing NFT dataset
+- Fix the requirements.txt
