@@ -62,7 +62,7 @@ We provide the pre-trained weights for the DiffNFTGen model.
 
 - **DiffNFTGen RR-0.8 (Rarity Reward=0.8)**: [Download here](https://drive.google.com/file/d/13LMNEa6fsHKB2M5h7liDs9tCVlrmD9to/view?usp=sharing)
 - **DiffNFTGen RR-0.5 (Rarity Reward=0.5)**: [Download here](https://drive.google.com/file/d/12IK4caXyKpV9zdVnNOR-mNZgZidONXDE/view?usp=sharing)
-- **Stable Diffusion Fine-tune (SD-SFT) Weights**: [Download here](https://drive.google.com/drive/folders1zJJhHCy48eVrTVr4pvzfsOE09WiTKIxuusp=sharing)
+- **Stable Diffusion Fine-tune (SD-SFT) Weights**: [Download here](https://drive.google.com/drive/folders/1zJJhHCy48eVrTVr4pvzfsOE09WiTKIxu?usp=sharing)
 - **Rarity Reward Weight (ViTB16)**: [Download here](https://drive.google.com/file/d/1bXWuZT9zJU_9aDyRRKzHsQVEURP_Vd-y/view?usp=sharing)
 
 ```bash
