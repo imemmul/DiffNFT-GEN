@@ -1,3 +1,0 @@
-import ImageReward as imagereward
-
-

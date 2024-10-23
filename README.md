@@ -64,10 +64,9 @@ We provide the pre-trained weights for the DiffNFTGen model.
 - **DiffNFTGen RR-0.5 (Rarity Reward=0.5)**: [Download here](https://drive.google.com/file/d/12IK4caXyKpV9zdVnNOR-mNZgZidONXDE/view?usp=sharing)
 - **Stable Diffusion Fine-tune (SD-SFT) Weights**: [Download here](https://drive.google.com/drive/folders/1zJJhHCy48eVrTVr4pvzfsOE09WiTKIxu?usp=sharing)
 - **Rarity Reward Weight (ViTB16)**: [Download here](https://drive.google.com/file/d/1bXWuZT9zJU_9aDyRRKzHsQVEURP_Vd-y/view?usp=sharing)
-
+- **NFT Dataset**: [Download  here](https://drive.google.com/drive/folders/1XZWhW-sXgUY7ulhgTaHgh_cw7GmBjLER?usp=sharing)
 ```bash
 python ./inference/inference.py --prompt "{prompt}" --num_images 5 --diffnftgen_weight {/path/to/diffnftgen_weight}  --sft_weight {/path/to/sft_weight} --rarity_weight {/path/to/classifier}
 ```
 **TODO**
-- Releasing NFT dataset
 - Fix the requirements.txt
